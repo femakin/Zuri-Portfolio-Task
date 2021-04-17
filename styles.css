@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.app{
+    background-color: #ffffff;
+    padding: 4rem 17rem;
+    height: auto;
+     width: 100%;
+}
+
+
+.header-title{
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.header-role{
+    color: rgb(22, 6, 248);
+    font-size: 22px;
+    font-weight: bold;
+}
+.header-contact, .header-email{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-contact{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.summary-title, .experience-title, .education-title, .skills-title, .projects-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(22, 6, 248);
+}
+
+.summary-content{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.experience-role{
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: auto;
+}
+.role-date{
+    margin-top: 12px;
+}
+
+.role-body{
+    margin-top: 12px;
+    padding-left: 2rem;
+    max-width: 100%;
+}
+
+.experience-body{
+    margin-top: 30px;
+}
+
+.year{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.education{
+    margin-top: 20px;
+}
+
+.education-role{
+    margin-bottom: 15px;
+}
+
+.projects-title{
+    margin-top: 20px;
+}
+
+a { 
+    color: blue;
+}
+.projects-content{
+    margin-bottom: 20px;
+}
+
+.role-body > li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.projects-content > label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+.experience-role{
+    width: 100%;
+}
+    .app{
+        background-color: aquamarine;
+        padding: 5%;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .header-left{
+        margin-bottom: 10px;
+    }
+}
+
+
