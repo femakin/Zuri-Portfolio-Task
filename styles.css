@@ -1,52 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-.app{
+.app {
     background-color: #ffffff;
     padding: 4rem 17rem;
     height: auto;
-     width: 100%;
+    width: 100%;
 }
 
-
-.header-title{
+.header-title {
     font-family: 'Merriweather', serif;
     font-size: 26px;
     font-weight: bold;
 }
 
-.header-role{
+.header-role {
     color: rgb(22, 6, 248);
     font-size: 22px;
     font-weight: bold;
 }
-.header-contact, .header-email{
+
+.header-contact,
+.header-email {
     font-size: 14px;
     font-weight: bold;
 }
 
-.header-contact{
+.header-contact {
     font-weight: bold;
     font-size: 14px;
 }
 
-.summary-title, .experience-title, .education-title, .skills-title, .projects-title{
+.summary-title,
+.experience-title,
+.education-title,
+.skills-title,
+.projects-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     margin-bottom: 10px;
     color: rgb(22, 6, 248);
 }
 
-.summary-content{
+.summary-content {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
     font-size: 16px;
@@ -54,77 +59,79 @@ header{
     margin-bottom: 50px;
 }
 
-.experience-role{
+.experience-role {
     font-size: 18px;
     margin-bottom: 10px;
     width: auto;
 }
-.role-date{
+
+.role-date {
     margin-top: 12px;
 }
 
-.role-body{
+.role-body {
     margin-top: 12px;
     padding-left: 2rem;
     max-width: 100%;
 }
 
-.experience-body{
+.experience-body {
     margin-top: 30px;
 }
 
-.year{
+.year {
     font-weight: bold;
     font-size: 18px;
 }
 
-.education{
+.education {
     margin-top: 20px;
 }
 
-.education-role{
+.education-role {
     margin-bottom: 15px;
 }
 
-.projects-title{
+.projects-title {
     margin-top: 20px;
 }
 
-a { 
+a {
     color: blue;
 }
-.projects-content{
+
+.projects-content {
     margin-bottom: 20px;
 }
 
-.role-body > li{
+.role-body>li {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
 
-.projects-content > label{
+.projects-content>label {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 @media (max-width: 768px) {
-    header{
+    header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-
-.experience-role{
-    width: 100%;
-}
-    .app{
+    .experience-role {
+        width: 100%;
+    }
+    .app {
         background-color: aquamarine;
         padding: 5%;
         min-height: 100vh;
         width: 100%;
     }
-
-    .header-left{
+    .header-left {
         margin-bottom: 10px;
     }
+    .skills-content {
+        display: none;
+    }
 }
-
-
